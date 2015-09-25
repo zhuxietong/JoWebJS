@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696BF3711BB3D85400A53A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF3701BB3D85400A53A11 /* AppDelegate.swift */; };
+		696BF3781BB3D85400A53A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696BF3771BB3D85400A53A11 /* Assets.xcassets */; };
+		696BF3BF1BB431DF00A53A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696BF3BD1BB431DE00A53A11 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		696BF3C11BB4323700A53A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF3C01BB4323700A53A11 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		696BF3C41BB4329300A53A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696BF3C31BB4329300A53A11 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		696BF4161BB45F9500A53A11 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 696BF4151BB45F9500A53A11 /* index.html */; settings = {ASSET_TAGS = (); }; };
+		696BF41E1BB4D85300A53A11 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF41D1BB4D85300A53A11 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		696BF4201BB4D8DF00A53A11 /* JoJsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF41F1BB4D8DF00A53A11 /* JoJsConfig.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		696BF36D1BB3D85400A53A11 /* JoWebJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoWebJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696BF3701BB3D85400A53A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		696BF3771BB3D85400A53A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696BF37C1BB3D85400A53A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696BF3BD1BB431DE00A53A11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		696BF3C01BB4323700A53A11 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		696BF3C21BB4329300A53A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		696BF4151BB45F9500A53A11 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		696BF41D1BB4D85300A53A11 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		696BF41F1BB4D8DF00A53A11 /* JoJsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoJsConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696BF36A1BB3D85400A53A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696BF3641BB3D85400A53A11 = {
+			isa = PBXGroup;
+			children = (
+				696BF36F1BB3D85400A53A11 /* JoWebJS */,
+				696BF36E1BB3D85400A53A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696BF36E1BB3D85400A53A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696BF36D1BB3D85400A53A11 /* JoWebJS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696BF36F1BB3D85400A53A11 /* JoWebJS */ = {
+			isa = PBXGroup;
+			children = (
+				696BF3EB1BB4347F00A53A11 /* JoWebJS */,
+				696BF4151BB45F9500A53A11 /* index.html */,
+				696BF3C01BB4323700A53A11 /* ViewController.swift */,
+				696BF3BD1BB431DE00A53A11 /* Main.storyboard */,
+				696BF3701BB3D85400A53A11 /* AppDelegate.swift */,
+				696BF3771BB3D85400A53A11 /* Assets.xcassets */,
+				696BF3C31BB4329300A53A11 /* LaunchScreen.xib */,
+				696BF37C1BB3D85400A53A11 /* Info.plist */,
+			);
+			path = JoWebJS;
+			sourceTree = "<group>";
+		};
+		696BF3EB1BB4347F00A53A11 /* JoWebJS */ = {
+			isa = PBXGroup;
+			children = (
+				696BF41D1BB4D85300A53A11 /* WebViewController.swift */,
+				696BF41F1BB4D8DF00A53A11 /* JoJsConfig.swift */,
+			);
+			path = JoWebJS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696BF36C1BB3D85400A53A11 /* JoWebJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696BF37F1BB3D85400A53A11 /* Build configuration list for PBXNativeTarget "JoWebJS" */;
+			buildPhases = (
+				696BF3691BB3D85400A53A11 /* Sources */,
+				696BF36A1BB3D85400A53A11 /* Frameworks */,
+				696BF36B1BB3D85400A53A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoWebJS;
+			productName = JoWebJS;
+			productReference = 696BF36D1BB3D85400A53A11 /* JoWebJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696BF3651BB3D85400A53A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhuxietong;
+				TargetAttributes = {
+					696BF36C1BB3D85400A53A11 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 696BF3681BB3D85400A53A11 /* Build configuration list for PBXProject "JoWebJS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696BF3641BB3D85400A53A11;
+			productRefGroup = 696BF36E1BB3D85400A53A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696BF36C1BB3D85400A53A11 /* JoWebJS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696BF36B1BB3D85400A53A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BF3C41BB4329300A53A11 /* LaunchScreen.xib in Resources */,
+				696BF4161BB45F9500A53A11 /* index.html in Resources */,
+				696BF3BF1BB431DF00A53A11 /* Main.storyboard in Resources */,
+				696BF3781BB3D85400A53A11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696BF3691BB3D85400A53A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BF3711BB3D85400A53A11 /* AppDelegate.swift in Sources */,
+				696BF41E1BB4D85300A53A11 /* WebViewController.swift in Sources */,
+				696BF4201BB4D8DF00A53A11 /* JoJsConfig.swift in Sources */,
+				696BF3C11BB4323700A53A11 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696BF3C31BB4329300A53A11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696BF3C21BB4329300A53A11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "../../../Downloads/jessesquires-JSQWebViewController-161269f/Example/Example";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696BF37D1BB3D85400A53A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		696BF37E1BB3D85400A53A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696BF3801BB3D85400A53A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = JoWebJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JoWebJS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696BF3811BB3D85400A53A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = JoWebJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JoWebJS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696BF3681BB3D85400A53A11 /* Build configuration list for PBXProject "JoWebJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BF37D1BB3D85400A53A11 /* Debug */,
+				696BF37E1BB3D85400A53A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696BF37F1BB3D85400A53A11 /* Build configuration list for PBXNativeTarget "JoWebJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BF3801BB3D85400A53A11 /* Debug */,
+				696BF3811BB3D85400A53A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696BF3651BB3D85400A53A11 /* Project object */;
+}

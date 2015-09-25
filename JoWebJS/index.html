@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>JS测试</title>
+                <style type="text/css">
+                    body {
+                        alignment: center;
+                        font-family:  "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+                        line-height: 60pt;
+                        font-size: 40pt;
+                        color: #333333;
+                        background-color: #cbd0d3;
+                        -webkit-user-select: none;
+                    }
+                input,button,label {
+                    font-family:  "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+                    line-height: 80pt;
+                    font-size: 40pt;
+                    color: #ffffff;
+                    width: 100%;
+                    background-color: #1abc9c;
+                    -webkit-user-select: none;
+                }
+                </style>
+                
+                <script>
+                    function app_info(){
+                        
+                        window.webkit.messageHandlers.observe.postMessage(message);
+                        
+                    }
+                //        function getAppUserInfo(){
+                //            window.webkit.messageHandlers.observe.postMessage(message);
+                //            return {'username':'zhuxietong','age':'16'} ;
+                //        }
+                
+                function getAppUserInfo(){
+                    return {'username':'zhuxietong','age':'16'} ;
+                }
+                
+                function printUserInfo()
+                {
+                    var info = getAppUserInfo();
+                    
+                    document.getElementById("demo").innerHTML= "获取用户名为：" + info['username'] + "<br>" + "年龄为：" + info['age'];
+                    
+                }
+                
+                
+                function search(key)
+                {
+                    var messgeToPost = {'key':key};
+                    
+                    window.webkit.messageHandlers.search.postMessage(messgeToPost);
+                }
+                
+                function tap(str)
+                {
+                    document.getElementById("demo").innerHTML=str;
+                }
+                tap("ddds")
+                    </script>
+    </head>
+    <body>
+        
+        <hr>
+        <h3>Js 测试</h3>
+        <p id="demo"></p>
+        <hr>
+        
+        <button type="button" onclick="printUserInfo()">获取App用户信息</button><br><br>
+        <button type="button" onclick="search('data')">传递网页信息给App</button><br><br>
+        
+        
+    </body>
+</html>
